@@ -1,0 +1,80 @@
+@media screen and (max-width:992px){
+    [class*=col-]{
+        width: 100%;
+    }
+
+    /*============header area start from here===============*/
+
+
+    .nav-bar nav ul{
+        text-align: center;
+    }
+
+
+    /*============================about section starts from here======================================*/
+    
+    .about-card{
+        float: none;
+        width: 100%;
+    }
+
+
+    .desc{
+        float: none;
+        width: 100%;
+    }
+    .about-btm{
+       padding: 10px 0px;
+    }
+
+    footer nav ul li{
+    
+        padding: 5px 10px;
+    
+    }
+
+
+
+}
+
+
+@media screen and (max-width:768px){
+
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    [class*=col-]{
+        width: 100%;
+    }
+/*================header area start from here=================*/
+
+.nav-bar nav ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+ 
+
+
+
+
+
+
+  
+}
+

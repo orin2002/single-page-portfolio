@@ -1,0 +1,570 @@
+/*=============for grid system=======================*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*=col-]{
+    float: left;
+    padding:20px;
+}
+/*=============for grid system=======================*/
+
+
+
+
+/*=============basic css starts from here=======================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.row::after{
+content: '';
+display: block;
+clear: both;
+}
+
+/*=============basic css ends here=======================*/
+
+
+/*====================HEADER STARTS FROM HERE============================*/
+
+.header{
+    background-color: #87509c;
+}
+
+
+
+.logo{
+text-align: center;
+padding: 25px 0px;
+}
+
+
+.nav-bar nav ul{
+text-align: right;
+padding-top: 10px;
+}
+
+.nav-bar nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    transition: 0.3s;
+}
+
+.nav-bar nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.nav-bar nav ul li:hover{
+    background-color: #643a79;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+
+/* =========header-top ends here ========*/
+
+
+
+
+
+/* =========header-bottom starts here ========*/
+
+
+.header-bottom{
+    text-align: center;
+    color: white;
+    padding: 5% 5%;
+}
+
+.btn{
+padding: 30px 0px;
+text-align: center;
+}
+.btn button{
+    border: none;
+    color: white;
+    background-color: #eb7d4b;
+    font-size: 1.2rem;
+    padding: 15px 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+.btn button:hover{
+transform: scale(1.1);
+background-color: teal;
+}
+
+
+/* =========header-bottom ends here ========*/
+
+/* =========main area starts from here ========*/
+
+.main-container{
+    background-color: #17c2a4;
+    padding: 5% 5%;
+}
+
+.sec1{
+text-align: center;
+}
+.sec-heading h1{
+    color: white;
+    font-size: 2.5rem;
+    padding:10px 0px;
+}
+.basic{
+    height: 5px;
+    background-color: #14a58c;
+    border: none;
+    width:100px;
+    margin: 0 auto;
+  
+
+}
+
+.para{
+    padding: 10px 0px;
+}
+
+.para p{
+    color: white;
+}
+
+.card-body{
+text-align: center;
+}
+
+.card-body h1{
+    color: white;
+    padding: 10px 0px;
+}
+.card-body p{
+    color: white;
+    text-align: justify;
+}
+
+/* =========main area ends here ========*/
+
+/* =========2ndmain area ends here ========*/
+
+.sec-main{
+    background-color: #e7f1f8;
+}
+.main-container2{
+    padding: 5% 5%;
+}
+
+.sec-main-top{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.sec-main-top h1{
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+.basic2{
+    height: 5px;
+    background-color: #c8d9e5;
+    border: none;
+    width:100px;
+    margin: 0 auto;
+  
+
+}
+
+.sec-main-top p{
+    padding: 10px 0px;
+}
+
+
+.sec-main-bottom{
+text-align: center;
+}
+
+.designer-card img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+
+.designer-card h1{
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+
+.blue{
+    padding: 10px;
+    color: blue;
+    text-align: center;
+   
+}
+
+.jus{
+    text-align: justify;
+}
+
+.icon{
+    padding: 20px 0px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.icon a{
+    padding: 0px 10px;
+}
+
+
+
+
+/* =========2ndmain area ends here ========*/
+
+
+
+
+/* ==============3rd main starts from here===========*/
+
+.thrd{
+    background-color: white;
+}
+.th-top-header{
+    text-align: center;
+}
+
+.th-top-heading h1{
+    padding:10px 0px ;
+}
+
+.thrd-hr{
+    height: 5px;
+    background-color:#dfe8ed;
+    border: none;
+    width:100px;
+    margin: 0 auto;
+}
+
+
+.th-p{
+padding: 10px;
+}
+
+.th-bottom-skill{
+    text-align: center;
+}
+
+.skill-card{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid #30bae7;
+    text-align: center;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.skill-card-2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid #d74680;
+    text-align: center;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.skill-card-3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid #15c7a8;
+    text-align: center;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.skill-card-4{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 8px solid #eb7d4b;
+    text-align: center;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+
+.skill-card-body{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.web{
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+/* ==============3rd main ends here===========*/
+
+
+/* ==============4th main starts from here===========*/
+
+.four{
+    background-color:#ffdd99 ;
+}
+
+.fr-container{
+    padding: 5% 10%;
+}
+.fr-header{
+    text-align: center;
+}
+
+.fr-header h1{
+    padding: 10px 0px;
+    text-transform: uppercase;
+
+}
+
+.fr-hr{
+    height: 5px;
+    background-color:#e5c37f;
+    border: none;
+    width:100px;
+    margin: 0 auto;
+}
+
+.fr-p{
+    padding: 10px 0px;
+}
+.nav-4{
+    padding: 10px 0px;
+}
+.nav-4 ul {
+
+}
+
+.nav-4 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ebc985;
+}
+.nav-4 ul li a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.fr-btm-card img{
+    width: 100%;
+    
+}
+
+.fr-btm-card {
+    text-align: center;
+}
+
+/* ==============4th main starts from here===========*/
+
+/* ==============aboutmain starts from here===========a*/
+
+.about{
+    background-color: #d74680;
+}
+
+.about-us{
+padding: 1% 5%;
+text-align: center;
+}
+
+.about-top h1{
+padding: 10px 0px;
+color: white;
+font-weight: 500;
+}
+
+
+
+.abt{
+    height: 5px;
+    background-color:#b73c6d;
+    border: none;
+    width:100px;
+    margin: 0 auto;
+}
+
+
+.about-top p{
+    padding: 10px 0px;
+    color: white;
+}
+
+
+.about-card{
+    float: left;
+    width: 30%;
+}
+.about-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.about-btm{
+    padding: 60px 0px;
+}
+
+.desc{
+    float: left;
+    width: 70%;
+}
+.desc p{
+    color: white;
+}
+.name{
+    padding: 5px 0px;
+    color: white;
+}
+
+
+
+/* ==============about ends here===========*/
+
+/* ==============get starts from here here===========*/
+.get{
+    background-color: #3c5499;
+    color: white;
+}
+.get-container{
+    text-align: center;
+    padding: 1% 10%;
+
+}
+.gt{
+    height: 5px;
+    background-color:#273a71;
+    border: none;
+    width:100px;
+    margin: 0 auto;
+}
+
+.get-header h1{
+padding: 10px 0px;
+}
+
+.get-header p{
+    padding: 10px 0px;
+}
+
+.in-main input{
+ width: 100%;
+ border: none;
+ background-color: #273a71;
+ padding: 10px 0px;
+ color: white;
+ font-size: 1.2rem;
+ text-align: center;
+}
+
+
+form textarea{
+    background-color: #273a71;
+    width: 100%;
+    border: none;
+    text-align: center;
+    resize: none;
+    height: 300px;
+}
+
+.submit-btn{
+    padding-bottom: 50px;
+}
+.submit-btn input{
+    padding: 15px 60px;
+    font-size: 1rem;
+    border: none;
+    text-transform: uppercase;
+    background-color: #30bae7;
+    color: white;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+
+
+
+/* ==============get ends here===========*/
+
+/*============ footer area starts from here====================*/
+
+footer {
+    background-color: #344b8e;
+    padding: 30px 0px;
+    text-align: center;
+
+}
+
+footer nav ul{
+
+}
+
+footer nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: 0.4s;
+
+}
+footer nav ul li:hover{
+    background-color: #273a71;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
